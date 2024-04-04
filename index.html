@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grand Theft Auto V</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <center>
+    <h1>Grand Theft Auto V</h1>
+  </center>
+
+  <div class="container">
+    <div class="content">
+      <div class="GambarGTA" id="text">
+        <picture>
+          <source media="(max-width: 600px)" srcset="assets/grand-theft-auto-v-4096x2304-11753.jpg">
+          <source media="(max-width: 1200px)" srcset="assets/2560x1440-gta-5-rockstar-games_1536010130.jpg">
+          <img src="assets/grand-theft-auto-v-4096x2304-11753.jpg" alt="">
+        </picture>
+        <button onclick="showPopup('Haiiiiiiiiiiiiiiiii')" class="tombol" style="margin-top: 30px;">Klik aku</button>
+      </div>
+
+      <div class="Vidiomv">
+        <div class="video-text">
+          <h2>Grand Theft Auto V Trailer</h2>
+        </div>
+        <video autoplay loop muted>
+          <source src="assets/Grand Theft Auto V Trailer.mp4" type="video/mp4">
+        </video>
+        <div class="button-container">
+          <button onclick="showPopup('Helloooooooooooooo')" class="tombol">Klik aku</button>
+        </div>
+      </div>
+      
+      <div class="audioo">
+        <div class="audio-text">
+          <h2>Welcome to Los Santos Soundtrack</h2>
+        </div>
+        <audio controls style="margin-top: 130px;">
+          <source src="assets/GTA V - Welcome to Los Santos Soundtrack - Intro Theme song.mp3" type="audio/mpeg">
+        </audio>
+        <div class="button-container1">
+          <button onclick="showPopup('Haloooooooo')" class="tombol">klik aku</button>
+        </div>
+      </div>        
+    </div>
+  </div>
+
+  <div id="popup1" class="popup" style="display: none;">
+    <span class="popup-close" onclick="hidePopup('popup1')">X</span>
+    <p id="popup-text1"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
